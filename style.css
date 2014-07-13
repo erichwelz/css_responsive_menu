@@ -1,165 +1,4 @@
 
-
-/*Normalize*/
-
-/*html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
-
-body {
-  margin: 0; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-  display: block; }
-
-audio, canvas, progress, video {
-  display: inline-block;
-  vertical-align: baseline; }
-
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-[hidden], template {
-  display: none; }
-
-a {
-  background: transparent; }
-
-a:active, a:hover {
-  outline: 0; }
-
-abbr[title] {
-  border-bottom: 1px dotted; }
-
-dfn {
-  font-style: italic; }
-
-h1 {
-  font-size: 2em;
-  margin: .67em 0; }
-
-mark {
-  background: #ff0;
-  color: #000; }
-
-small {
-  font-size: 80%; }
-
-sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sup {
-  top: -.5em; }
-
-sub {
-  bottom: -.25em; }
-
-img {
-  border: 0; }
-
-svg:not(:root) {
-  overflow: hidden; }
-
-figure {
-  margin: 1em 40px; }
-
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0; }
-
-code, kbd, pre, samp {
-  font-family: monospace, monospace;
-  font-size: 1em; }
-
-button, input, optgroup, select, textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0; }
-
-button {
-  overflow: visible; }
-
-button, select {
-  text-transform: none; }
-
-button, html input[type=button],
-input[type=reset], input[type=submit] {
-  -webkit-appearance: button;
-  cursor: pointer; }
-
-button[disabled], html input[disabled] {
-  cursor: default; }
-
-input {
-  line-height: normal; }
-
-input[type=checkbox], input[type=radio] {
-  box-sizing: border-box;
-  padding: 0; }
-
-input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
-  height: auto; }
-
-input[type=search] {
-  -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box; }
-
-input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-fieldset {
-  border: 1px solid silver;
-  margin: 0 2px;
-  padding: .35em .625em .75em; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-td, th {
-  padding: 0; }
-
-b, strong, optgroup {
-  font-weight: 700; }
-
-pre, textarea {
-  overflow: auto; }
-
-button::-moz-focus-inner, input::-moz-focus-inner, legend {
-  border: 0;
-  padding: 0; }
-
-input:focus, input:hover, textarea:focus, textarea:hover {
-  outline: none; }
-
-textarea {
-  resize: none; }
-
-/* clearfix */
-
-/*
-.clearfix:after {
-  content: " ";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both; }
-
- border box
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-*/
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -218,18 +57,13 @@ table {
 /* Erich's styling starts*/
 
 body{
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 
-.menu-items {
-  min-width: 240px;
-  float: left;
-/*  display: none*/
-}
 
 .menu-bar {
-  background-color: #2555B5;
-  display: inline-block;
+  background-color: #3D5C9F;
+/*  display: inline-block;*/
   min-width: 100%;
   height: 3.4em;
 }
@@ -238,7 +72,7 @@ li {
   list-style-type: none;
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.8);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   font-weight: bold;
   color: white;
   padding: 1em;
@@ -254,4 +88,35 @@ h1,h2,p {
 
 p{
   line-height: 1.2
+}
+
+.menu-items {
+  min-width: 240px;
+  float: left;
+/*  display: none*/
+}
+
+.hamburger {
+  position: relative;
+  border: solid #3C5289 1px;
+  background-color: #4560A1;
+  top: 12px;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.line {
+  height: 4px;
+  width: 22px;
+  background-color: white;
+  position: relative;
+  margin-left: 4px;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+
+.line1{
+  margin-top: 6px;
 }
