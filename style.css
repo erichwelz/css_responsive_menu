@@ -172,6 +172,7 @@ li {
   list-style-type: none;
   background-color: rgba(0, 0, 0, 0.8);
   border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+  font-weight: bold;
   color: white;
   padding: 1em;
   }
