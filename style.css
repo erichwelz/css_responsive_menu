@@ -20,8 +20,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -83,7 +81,15 @@ li {
 }
 
 h1,h2,p {
-  padding-left: 5px;
+  padding-left: 8px;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 24px;
 }
 
 p{

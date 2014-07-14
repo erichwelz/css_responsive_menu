@@ -5,8 +5,10 @@ X para text spacing
 X create icon (three line style)
 X Get menu color accurate - Done with color dropper!
 
-
 javascript target a .div
+
+Mobile:
+- viewport
 
 @import for stylesheets (normalize/resets)
 
