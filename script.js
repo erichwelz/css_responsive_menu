@@ -6,3 +6,7 @@ function menuToggle() {
     ? "none"
     : "inherit");
 };
+
+window.addEventListener('load', function() {
+    FastClick.attach(document.body);
+}, false);
