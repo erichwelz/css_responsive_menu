@@ -96,7 +96,7 @@ p{
   line-height: 1.2
 }
 
-.menu-items {
+#menu-items {
   min-width: 240px;
   float: left;
 /*  display: none*/
