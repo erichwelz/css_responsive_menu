@@ -88,13 +88,14 @@ li:hover {
     position: absolute;
     background: #fff;
     overflow-y: auto;
-    left: 0;
-    -webkit-transition: left 0.3s;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transition: -webkit-transform 0.3s;
+    -webkit-backface-visibility: hidden;
 }
 
 
 body.menu .content-wrap {
-  left: 240px;
+  -webkit-transform: translate3d(240px,0,0);
 }
 
 h1,h2,p {
