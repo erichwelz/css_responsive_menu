@@ -54,8 +54,9 @@ table {
 
 /* Erich's styling starts*/
 
-body{
+html, body{
   font-family: arial, sans-serif;
+  height: 100%;
 }
 
 
@@ -83,7 +84,17 @@ li:hover {
 
 
 .content-wrap {
+    min-height: 100%;
+    position: absolute;
+    background: #fff;
     overflow-y: auto;
+    left: 0;
+    -webkit-transition: left 0.3s;
+}
+
+
+body.menu .content-wrap {
+  left: 240px;
 }
 
 h1,h2,p {
@@ -105,7 +116,9 @@ p{
 #menu-items {
   min-width: 240px;
   float: left;
-  display: none;
+  height: 100%;
+  /*display: none;*/
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .hamburger {
